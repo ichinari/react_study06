@@ -1,10 +1,14 @@
-import Janken from "@/features/janken/Janken";
+// import Janken from "@/features/janken/Janken";
+import Todo from "@/features/todo/Todo";
 
 export default function App() {
   return (
     <div>
       {/* じゃんけんゲーム */}
-      <Janken />
+      {/* <Janken /> */}
+
+      {/* TODOアプリ */}
+      <Todo />
     </div>
   );
 }
