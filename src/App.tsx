@@ -1,5 +1,6 @@
 // import Janken from "@/features/janken/Janken";
-import Todo from "@/features/todo/Todo";
+// import Todo from "@/features/todo/Todo";
+import Weather from "@/features/weather/Weather";
 
 export default function App() {
   return (
@@ -8,7 +9,10 @@ export default function App() {
       {/* <Janken /> */}
 
       {/* TODOアプリ */}
-      <Todo />
+      {/* <Todo /> */}
+
+      {/* 天気アプリ */}
+      <Weather />
     </div>
   );
 }
